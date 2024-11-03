@@ -41,11 +41,11 @@ function User() {
 
   return (
     <>
-      <div className="w-full mx-auto lg:w-10/12 dark:text-white">
-        <div className="mb-4">
+      <div className="w-full mx-auto lg:w-10/12  dark:text-white">
+        <div className="mb-4 ">
           <Link
             to="/"
-            className="hover:bg-gray-200 capitalize transition duration-300  text-black font-bold py-2 px-4 rounded"
+            className="hover:bg-gray-200 dark:text-black  dark:bg-white dark:hover:bg-black dark:hover:text-white capitalize transition duration-300  text-black font-bold py-2 px-4 rounded"
           >
             Back To Search
           </Link>
@@ -74,7 +74,7 @@ function User() {
 
           <div className="col-span-2">
             <div className="mb-6">
-              <h1 className="text-3xl flex items-center text-black opacity-100 font-bold">
+              <h1 className="text-3xl flex items-center dark:text-white text-black opacity-100 font-bold">
                 {name}
                 <div className="ml-2 mr-1 text-green-500  font-bold bg-gray-300 w-24 h-4 flex items-center justify-center  px-3 py-1 rounded capitalize text-sm ">
                   {type}
