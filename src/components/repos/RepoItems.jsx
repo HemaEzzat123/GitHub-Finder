@@ -13,7 +13,7 @@ function RepoItems({ repo }) {
   } = repo;
 
   return (
-    <div className="mb-2 rounded-md bg-white transition duration-300 hover:bg-gray-200  shadow-md">
+    <div className="mb-2 rounded-md bg-white dark:bg-gray-900 dark:hover:bg-gray-800 transition duration-300 hover:bg-gray-200  shadow-md">
       <div className="p-5">
         <h3 className="flex items-center space-x-4">
           <a

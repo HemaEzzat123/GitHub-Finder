@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function NotFound() {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center dark:bg-black dark:text-white justify-center">
       <div className="text-center  ">
         <div className="max-w-lg">
           <h1 className="text-8xl font-bold mb-8">Oops!</h1>

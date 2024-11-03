@@ -31,13 +31,13 @@ function UserSearch() {
               <input
                 type="text"
                 placeholder="Search"
-                className="w-full pr-40 p-2 bg-gray-200 h-10 rounded-md text-black"
+                className="w-full pr-40 p-2 bg-gray-200 dark:bg-gray-800 shadow-lg dark:shadow-slate-600 dark:text-white h-10 rounded-md text-black"
                 value={text}
                 onChange={handleChange}
               />
               <button
                 type="submit"
-                className="absolute top-0 right-0 rounded-l-none w-36 bg-black hover:bg-slate-900 transition duration-300 rounded-md text-white h-10"
+                className="absolute top-0 right-0 rounded-l-none w-36 shadow-md dark:shadow-slate-600 bg-black hover:bg-slate-900 transition duration-300 rounded-md text-white h-10"
               >
                 Go
               </button>
@@ -49,7 +49,7 @@ function UserSearch() {
         <div>
           <button
             onClick={() => dispatch({ type: "CLEAR_USERS" })}
-            className="font-bold py-2 px-4 rounded-md hover:bg-gray-200 transition duration-300"
+            className="font-bold py-2 px-4 rounded-md dark:text-white dark:hover:bg-slate-900 hover:bg-gray-200 transition duration-300"
           >
             CLEAR
           </button>
