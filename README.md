@@ -1,8 +1,49 @@
-# React + Vite
+# GitHub Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitHub Finder is a React application that allows users to search for GitHub profiles and view details about repositories, followers, and more.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Live Demo](#live-demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Live Demo
+
+[View the live project here](https://<username>.github.io/<repository-name>)
+
+## Features
+
+- Search GitHub users by username
+- View user profiles with information like followers, following, and repositories
+- Clickable links to user profiles and individual repositories
+- Responsive design
+
+## Technologies Used
+
+- React
+- Tailwind CSS
+- GitHub API
+- FontAwesome (for icons)
+
+## Getting Started
+
+These instructions will help you set up the project on your local machine for development and deployment.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/<username>/<repository-name>.git
